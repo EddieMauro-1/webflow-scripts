@@ -603,7 +603,7 @@ const POINTS = [{"name": "El L\u00edbano", "lat": 4.92951505644009, "lng": -75.0
                 if (!zoomContainer) return;
                 const isHidden = statsDiv.classList.contains('collapsed');
                 zoomContainer.style.transition = 'margin-right 0.3s ease';
-                zoomContainer.style.marginRight = isHidden ? '0px' : '290px';
+                zoomContainer.style.marginRight = isHidden ? '0px' : '340px';
             }
             // Initial position
             setTimeout(updateZoomMargin, 100);
