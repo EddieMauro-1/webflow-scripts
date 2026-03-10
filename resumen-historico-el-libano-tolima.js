@@ -527,9 +527,7 @@ let _ovMinDate = 0, _ovMaxDate = 0;
 
 function formatDateMs(ms) {
     if (!ms) return '';
-    const d = new Date(ms);
-    const months = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
-    return months[d.getMonth()] + ' ' + d.getFullYear();
+    return '' + new Date(ms).getFullYear();
 }
 
 function updateRangeLabel(rangeStart, rangeEnd) {
