@@ -1,8 +1,8 @@
 /* =====================================================================
    Visor de Boletines ACG — hoja de estilos
    FUENTE CANÓNICA. Editar aquí, NO en el embed de Webflow.
-   Se sirve por jsDelivr: https://cdn.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@main/visor.css
-   Tras actualizar, purgar: https://purge.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@main/visor.css
+   Se sirve por jsDelivr: https://cdn.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@main/boletines/visor.css
+   Tras actualizar, purgar: https://purge.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@main/boletines/visor.css
    ===================================================================== */
   #acg-visor{
     --ink:#1D1E1D;
@@ -504,12 +504,12 @@
     }
 
     #acg-visor .acg-bar{
-      gap:8px 6px;
-      padding:8px 10px;
+      gap:6px 4px;
+      padding:7px 8px;
     }
 
     #acg-visor .acg-title{
-      flex:1 1 calc(100% - 44px);
+      flex:1 1 calc(100% - 42px);
       font-size:14px;
     }
 
@@ -517,22 +517,38 @@
     #acg-visor .acg-tools{
       flex:1 1 auto;
       justify-content:center;
+      gap:4px;
     }
 
     #acg-visor .acg-nav{ order:2; }
     #acg-visor .acg-tools{ order:3; }
 
     #acg-visor .acg-btn{
-      width:44px;
-      height:44px;
-      min-width:44px;
-      min-height:44px;
+      width:36px;
+      height:36px;
+      min-width:36px;
+      min-height:36px;
+      font-size:15px;
+    }
+
+    #acg-visor .acg-page-box{
+      gap:3px;
+      font-size:12px;
     }
 
     #acg-visor .acg-page-input{
-      width:52px;
-      height:40px;
+      width:40px;
+      height:34px;
       font-size:16px;
+    }
+
+    #acg-visor .acg-page-total{
+      min-width:20px;
+    }
+
+    #acg-visor .acg-zoom{
+      min-width:34px;
+      font-size:12px;
     }
 
     #acg-visor .acg-pages{
