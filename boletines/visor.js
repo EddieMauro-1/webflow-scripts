@@ -1,8 +1,8 @@
 /* =====================================================================
    Visor de Boletines ACG — lógica (PDF.js)
    FUENTE CANÓNICA. Editar aquí, NO en el embed de Webflow.
-   Se sirve por jsDelivr: https://cdn.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@main/visor.js
-   Tras actualizar, purgar: https://purge.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@main/visor.js
+   Se sirve por jsDelivr: https://cdn.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@main/boletines/visor.js
+   Tras actualizar, purgar: https://purge.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@main/boletines/visor.js
    ===================================================================== */
 (function(){
   "use strict";
@@ -17,6 +17,13 @@
     { id:"39", title:"Boletín 39", date:"2026-08-01", file:"Boletin39.pdf", detail:"Agosto de 2026" }
   */
   var BOLETINES = [
+    {
+      id:"39",
+      title:"Boletín 39",
+      date:"2026-07-01",
+      detail:"Julio de 2026",
+      url:"https://cdn.jsdelivr.net/gh/EddieMauro-1/webflow-scripts@2ad13b3f4e457c512500fcd7f3f561def324d208/boletines/Boletin39.pdf"
+    },
     { id:"38", title:"Boletín 38", date:"2026-02-01", file:"Boletin38.pdf", detail:"Febrero de 2026" },
     {
       id:"37",
